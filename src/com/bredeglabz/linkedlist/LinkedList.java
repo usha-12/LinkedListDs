@@ -4,22 +4,28 @@ public class LinkedList <T>{
     Node<T> head;
     Node<T> tail;
     public void add(T data) {
-        Node<T> newMyNode = new Node(data);
+        Node<T> newNode = new Node(data);
         if (head == null) {
-            head = newMyNode;
-            tail = newMyNode;
+            head = newNode;
+            tail = newNode;
         } else {
-            tail.setNext(newMyNode);
-            tail = newMyNode;
+            tail.setNext(newNode);
+            tail = newNode;
         }
-    }public void push(T data) {
-        Node<T> newMyNode = new Node(data);
-        if (head == null) {
-            head = newMyNode;
-            tail = newMyNode;
-        } else {
-            newMyNode.setNext(head);
-            head = newMyNode;
+    }
+    public void popMiddle(T element){
+        Node<T> thisNode = head;
+        if (element == head.getData()){
+            thisNode = head.getNext();
+            head = thisNode;
+        }
+        else {
+            Node<T> previous = null;
+            while (thisNode.getData() != element){
+                previous = thisNode;
+                thisNode = thisNode.getNext();
+            }
+            previous.setNext(thisNode.getNext());
         }
     }
     public void print(){
@@ -33,6 +39,5 @@ public class LinkedList <T>{
             }
             System.out.println();
         }
-    }
-
+   }
 }
