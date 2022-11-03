@@ -8,14 +8,14 @@ public class LinkedListMain {
         list1.add(30);
         list1.add(70);
         list1.print();
-        System.out.println("\n------After Deleting the first element------");
-        list1.pop(56);
+        System.out.println("\n------After Deleting the Last element------");
+        list1.popLast(70);
         list1.print();
 
     }
 }
-/*Ability to delete the first
+/*Ability to delete the last
 element in the LinkedList
-of sequence 56->30->70 - Write pop method
-- Note there is new head
-- Final Sequence: 30->70*/
+of sequence 56->30->70 - Write popLast method
+- Note there is new tail
+- Final Sequence: 56->30*/
