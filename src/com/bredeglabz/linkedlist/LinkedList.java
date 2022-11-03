@@ -13,15 +13,21 @@ public class LinkedList <T>{
             tail = newNode;
         }
     }
-    public void search(T element, T previous) {
-        Node<T> newNode = new Node<>(element);
-        Node<T> currNode = head;
-        while (currNode.getData() != previous) {
-           currNode= currNode.getNext();
-           newNode.setNext(currNode.getNext());
-           currNode.setNext(newNode);
-            }
+    public void popMiddle(T element){
+        Node<T> thisNode = head;
+        if (element == head.getData()){
+            thisNode = head.getNext();
+            head = thisNode;
         }
+        else {
+            Node<T> previous = null;
+            while (thisNode.getData() != element){
+                previous = thisNode;
+                thisNode = thisNode.getNext();
+            }
+            previous.setNext(thisNode.getNext());
+        }
+    }
 
 
     public void print(){
