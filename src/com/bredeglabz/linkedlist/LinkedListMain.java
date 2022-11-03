@@ -8,7 +8,7 @@ public class LinkedListMain {
         list1.add(30);
         list1.add(56);
         list1.print();
-        System.out.println("--------Add data in Linked List---------");
+        System.out.println("--------Ability to create Linked List by appending 30 and 70 to 56---------");
         LinkedList<Integer> list2 = new LinkedList<>();
         list2.push(70);
         list2.push(30);
