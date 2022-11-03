@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa334e61-104c-4bd7-acbc-6380afd96bf5" name="Changes" comment="">
+
+      <change afterPath="$PROJECT_DIR$/src/com/bredeglabz/linkedlist/SortedLinkedList.java" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bredeglabz/linkedlist/LinkedListMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bredeglabz/linkedlist/LinkedListMain.java" afterDir="false" />
     </list>
@@ -43,6 +46,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+
+  <component name="RunManager" selected="Application.SortedLinkedList">
   <component name="RunManager">
     <configuration name="LinkedListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bredeglabz.linkedlist.LinkedListMain" />
@@ -57,8 +62,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SortedLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bredeglabz.linkedlist.SortedLinkedList" />
+      <module name="LinkedListDS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bredeglabz.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortedLinkedList" />
         <item itemvalue="Application.LinkedListMain" />
         <item itemvalue="Application.LinkedListMain" />
       </list>
