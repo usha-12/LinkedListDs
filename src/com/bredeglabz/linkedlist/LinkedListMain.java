@@ -9,7 +9,7 @@ public class LinkedListMain {
         list1.add(40);
         list1.add(70);
         list1.print();
-        System.out.println("------Deleting 40 from the Linked List------");
+        System.out.println("\nDeleting 40 from the Linked List.");
         list1.popMiddle(40);
         list1.print();
     }

@@ -28,8 +28,6 @@ public class LinkedList <T>{
             previous.setNext(thisNode.getNext());
         }
     }
-
-
     public void print(){
         if (head == null){
             System.out.println("Linked List is Empty");
