@@ -8,14 +8,17 @@ public class LinkedListMain {
         list1.add(30);
         list1.add(70);
         list1.print();
-        System.out.println("\n------After Deleting the Last element------");
-        list1.popLast(70);
+        System.out.println("------Searching for element 30 in the Linked List------");
+        list1.search(30);
         list1.print();
 
     }
 }
-/*Ability to delete the last
-element in the LinkedList
-of sequence 56->30->70 - Write popLast method
-- Note there is new tail
-- Final Sequence: 56->30*/
+/*Ability to search
+LinkedList to find Node
+with value 30
+
+- Write Junit Test Case as
+demonstrated in class
+- Loop through LinkedList to
+find node with key 30*/

@@ -1,5 +1,4 @@
 package com.bredeglabz.linkedlist;
-
 public class Node <T>{
     private T data;
     private Node<T> next;
@@ -20,3 +19,4 @@ public class Node <T>{
         this.next = next;
     }
 }
+//

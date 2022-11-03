@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bredeglabz/linkedlist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bredeglabz/linkedlist/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bredeglabz/linkedlist/LinkedListMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bredeglabz/linkedlist/LinkedListMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bredeglabz/linkedlist/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bredeglabz/linkedlist/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
