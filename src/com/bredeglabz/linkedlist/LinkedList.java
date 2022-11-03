@@ -22,7 +22,6 @@ public class LinkedList <T>{
             head = newMyNode;
         }
     }
-
     public void print(){
         if (head == null){
             System.out.println("Linked List is Empty");
@@ -35,8 +34,5 @@ public class LinkedList <T>{
             System.out.println();
         }
     }
-
-
-
 
 }
