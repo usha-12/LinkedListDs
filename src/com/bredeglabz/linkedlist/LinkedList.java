@@ -4,20 +4,29 @@ public class LinkedList <T>{
     Node<T> head;
     Node<T> tail;
     public void add(T data) {
-        Node<T> newMyNode = new Node(data);
+        Node<T> newNode = new Node(data);
         if (head == null) {
-            head = newMyNode;
-            tail = newMyNode;
+            head = newNode;
+            tail = newNode;
         } else {
-            tail.setNext(newMyNode);
-            tail = newMyNode;
+            tail.setNext(newNode);
+            tail = newNode;
         }
     }
-    public void pop(T element){
-        if (head == null){
-            System.out.println("List is Empty");
+    public T popLast(T element) {
+        Node<T> newNode = new Node(element);
+        if (head == null)
+            return null;
+        else {
+            Node<T> temp = head;
+            while (temp.getNext() != tail) {
+                temp = (Node<T>) temp.getNext();
+            }
+            T data = tail.getData();
+            temp.setNext(null);
+            tail = temp;
+            return data;
         }
-        head = head.getNext();
     }
 
     public void print(){
