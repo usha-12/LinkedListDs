@@ -20,9 +20,17 @@ public class LinkedList <T>{
         } else {
             newMyNode.setNext(head);
             head = newMyNode;
+       }
+    }
+    public void insert(T element) {
+        Node newNode = new Node(element);
+        Node thisNode = head;
+        while (thisNode.getData() != null){
+            thisNode= thisNode.getNext();
+            newNode.setNext(thisNode.getNext());
+            thisNode.setNext(newNode);
         }
     }
-
     public void print(){
         if (head == null){
             System.out.println("Linked List is Empty");
