@@ -12,25 +12,14 @@ public class LinkedList <T>{
             tail.setNext(newMyNode);
             tail = newMyNode;
         }
-    }public void push(T data) {
-        Node<T> newMyNode = new Node(data);
-        if (head == null) {
-            head = newMyNode;
-            tail = newMyNode;
-        } else {
-            newMyNode.setNext(head);
-            head = newMyNode;
-       }
     }
-    public void insert(T element) {
-        Node newNode = new Node(element);
-        Node thisNode = head;
-        while (thisNode.getData() != null){
-            thisNode= thisNode.getNext();
-            newNode.setNext(thisNode.getNext());
-            thisNode.setNext(newNode);
+    public void pop(T element){
+        if (head == null){
+            System.out.println("List is Empty");
         }
+        head = head.getNext();
     }
+
     public void print(){
         if (head == null){
             System.out.println("Linked List is Empty");
